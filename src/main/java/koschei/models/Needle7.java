@@ -6,12 +6,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class Needle7 {
 
-    public final Deth8 deth;
-
     @Autowired
-    public Needle7(Deth8 deth) {
-        this.deth = deth;
-    }
+    private Deth8 deth;
 
     @Override
     public String toString() {
